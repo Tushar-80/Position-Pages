@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fixed Position Page</title>
+    <style>
+    .heading{
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    .btn{
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: aqua;
+    }
+    .container{
+        width:80%;
+        background-color: rgb(255, 0, 43);
+        padding:20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap:wrap;
+        margin: 40px auto;
+        font-size: 20px;
+   }
+   .btn1{
+    border-width: 5px;
+    border-color: brown;
+    border-radius: 5px;
+    position: fixed;
+    top:70px;
+    right: 50px;
+   }
+   .heading2{
+        text-align: center;
+        background-color: black;
+        color: white;
+   }
+</style>
+</head>
+<body style="background-color: yellow;">
+    <h1 class="heading">Fixed Position...!</h1>
+    <div class="container">
+    <p>Fixed <button class="btn">Fixed</button> position is set with respect to viewport. Removed from normal flow.
+        Viewport => Visible area on the browser.</p>
+    </div>
+    <div>
+    <button class="btn1">Fixed Button</button>
+    </div>
+    <div>
+        <h2 class="heading2">Flowers Information...!</h2>
+        <h3><u><i>Rose :-</i></u></h3>
+        <p style="text-align: justify;">
+            <b>The rose is a type of flowering shrub. Its name comes from the Latin word Rosa.There are over three 
+                hundred species and tens of thousands of cultivars. The flowers of the rose grow in many different colors,
+                from the well-known red rose or yellow rose and sometimes white or purple rose.Rose thorns are actually
+                prickles outgrowths of the epidermis Roses belong to the family of plants called Rosaceae. All roses were
+                originally wild: they grew in North America, Europe, northwest Africa and many parts of Asia and Oceania.</b>
+        </p><br><br>
+        <h3><u><i>sunflower :-</i></u></h3>
+        <p style="text-align: justify;">
+            <b>The common sunflower (Helianthus annuus) is a living annual plant in the family Asteraceae, with a large flower
+                head (capitulum). The stem of the flower can grow up to 3 metres tall, with a flower head that can be 30 cm wide.
+                Other types of sunflowers include the California Royal Sunflower, which has a burgundy (red + purple) flower head.
+                The flower head is actually an inflorescence made of hundreds or thousands of tiny flowers called florets.</b>
+        </p><br><br>
+        <h3><u><i>Jasmine :-</i></u></h3>
+        <p style="text-align: justify;">
+            <b>Jasmine (botanical name: Jasminum;)is a genus of shrubs and vines in the olive family of Oleaceae.It contains
+                around 200 species native to tropical and warm temperate regions of Eurasia, Africa, and Oceania.Jasmines are widely
+                cultivated for the characteristic fragrance of their flowers. The village of Shubra Beloula in Egypt grows most of the
+                jasmine used by the global perfume industry.This section needs additional citations for verification. Please help 
+                improve this article by adding citations to reliable sources in this section. Unsourced material may be challenged and removed.</b>
+        </p><br><br>
+        <h3><u><i>Levender :-</i></u></h3>
+        <p style="text-align: justify;">
+            <b>Lavandula (common name lavender) is a genus of 47 known species of perennial flowering plants in the mints family,
+                Lamiaceae.It is native to the Old World, primarily found across the drier, warmer regions of mainland Eurasia, with an
+                affinity for maritime breezes.Lavender is found on the Iberian Peninsula and around the entirety of the Mediterranean coastline
+                (including the Adriatic coast, the Balkans, the Levant, and coastal North Africa), in parts of Eastern and Southern Africa and the Middle East,
+                as well as in South Asia and on the Indian subcontinent.</b>
+        </p>
+    </div>
+</body>
+</html>
